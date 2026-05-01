@@ -1,0 +1,19 @@
+## dependencies
+**/node_modules/
+
+## builds
+dist/
+**/dist/
+
+## env (never commit)
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+!frontend/.env.production
+
+## local tooling
+.vscode/
+.idea/
+.DS_Store
+
